@@ -86,7 +86,7 @@ skill-name/
 
 ## Scripts
 
-The skill-creator includes helper scripts:
+The new-skills includes helper scripts:
 
 - `init_skill.py` - Generate a new skill template
 - `package_skill.py` - Validate and package a skill

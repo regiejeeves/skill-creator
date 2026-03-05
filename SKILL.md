@@ -1,5 +1,5 @@
 ---
-name: skill-creator
+name: new-skills
 description: |
   Create new AgentSkills for OpenClaw and iteratively improve them. Use when users want to create a skill from scratch, update or optimize an existing skill, or improve a skill's triggering description.
   OpenClaw skills are simpler than Claude Code plugins - they're primarily a SKILL.md file with optional scripts/ and references/ folders.
