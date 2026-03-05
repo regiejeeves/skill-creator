@@ -26,7 +26,6 @@ Ask clarifying questions:
 ### 2. Research
 
 - Check existing skills in `~/.openclaw/workspace/skills/` for reference
-- Use Context7 (MCP available in Codex) for library documentation
 - Research best practices for the skill domain
 
 ### 3. Write SKILL.md
@@ -91,17 +90,3 @@ Use realistic, specific queries - not abstract requests.
 
 - List skills: `ls ~/.openclaw/workspace/skills/`
 - Test skill loading: Check available_skills in conversation
-- Use Context7: `codex mcp list` (ensure context7 is enabled)
-
-## Context7 Integration
-
-Context7 MCP is available in Codex for up-to-date library docs. Enable with:
-```bash
-codex mcp add context7 -- npx @upstash/context7-mcp
-# Set CONTEXT7_API_KEY environment variable
-```
-
-Use proactively when:
-- Working with external libraries
-- User asks about library APIs
-- Implementing features with third-party packages
