@@ -1,10 +1,10 @@
 # Skill Creator
 
-Create and package AgentSkills for Codex.
+Create and package AgentSkills for OpenClaw.
 
 ## What This Skill Does
 
-The skill-creator provides guidance for building AgentSkills—modular packages that extend Codex's capabilities with specialized knowledge, workflows, and tools.
+The skill-creator provides guidance for building AgentSkills—modular packages that extend OpenClaw's capabilities with specialized knowledge, workflows, and tools.
 
 Skills can provide:
 - **Specialized workflows** - Multi-step procedures for specific domains
@@ -73,7 +73,7 @@ skill-name/
 
 ## Key Principles
 
-- **Keep it concise** - Only add context Codex doesn't already have
+- **Keep it concise** - Only add context OpenClaw doesn't already have
 - **Use progressive disclosure** - Load detailed references only when needed
 - **Match degrees of freedom** - Be specific where tasks are fragile, flexible where they're not
 
